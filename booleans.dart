@@ -1,11 +1,25 @@
+// void main() {
+//   var value = true;
+//   if (value) {
+//     print("true is $value ttt");
+//   } else {
+//     print("false is $value fff");
+//   }
+// }
+
+// // Output:
+// // true is true ttt
+
+// // ==========
+
 void main() {
-  var val = true;
-  if (val) {
-    print("It's $val yyy");
+  var value = false;
+  if (value) {
+    print("true is $value ttt");
   } else {
-    print("It's $val xxx");
+    print("false is $value fff");
   }
 }
 
 // Output:
-// It's true yyy
+// false is false fff
