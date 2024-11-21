@@ -29,3 +29,8 @@ class Class {
     four = four - 0.3;
   }
 }
+
+// Output:
+// flutter 1 is number one.
+// flutter 1 is number three.
+// 4.3
