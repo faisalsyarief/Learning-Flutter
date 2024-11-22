@@ -7,7 +7,7 @@ void main() {
     "Flutter"
   ];
 
-  /// Menghapus list 'Programming'
+  // Menghapus list 'Programming'
   listData.remove('Programming');
   print(listData);
 
@@ -15,15 +15,17 @@ void main() {
   // [Hello, Dicoding, Dart, Flutter]
 
 
-  /// Menghapus list pada index ke-1
+  // ========== //
+  // Menghapus list pada index ke-1
   // listData.removeAt(1);
   // print(listData);
 
   // Output:
   // [Programming, Dicoding, Dart, Flutter]
-  
 
-  /// Menghapus data list terakhir
+
+  // ========== //
+  // Menghapus data list terakhir
   // listData.removeLast();
   // print(listData);
 
@@ -31,7 +33,8 @@ void main() {
   // [Programming, Hello, Dicoding, Dart]
 
 
-  /// Menghapus list mulai index ke-0 sampai ke-1 (indeks 2 masih dipertahankan)
+  // ========== //
+  // Menghapus list mulai index ke-0 sampai ke-1 (indeks 2 masih dipertahankan)
   // listData.removeRange(0,2);
   // print(listData);
 
