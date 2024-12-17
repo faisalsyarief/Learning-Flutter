@@ -6,3 +6,8 @@ void main() {
     ..refuel(5.0)
     ..service();
 }
+
+// Output:
+// Toyota is being driven.
+// Toyota is being refueled with 5.0 liters.
+// Toyota is being serviced.
